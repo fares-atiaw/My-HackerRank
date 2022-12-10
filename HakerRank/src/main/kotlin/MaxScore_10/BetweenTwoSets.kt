@@ -13,7 +13,7 @@ fun getTotalX(a: Array<Int>, b: Array<Int>): Int {
     var flag = true
     var x = 0
 
-    for(n in a[0]..b.first() step a[0])
+    for(n in a.last()..b.first() step a.last())
     {
         a.forEach {
             if (!(n%it==0 && flag)) {
