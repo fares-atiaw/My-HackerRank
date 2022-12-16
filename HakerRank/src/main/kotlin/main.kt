@@ -46,12 +46,10 @@ fun main() {
     println(myMap.entries)
 */
 
-   var x : Int = 5
-    x += 5 // x = x + 5
-
-    if ( true && false || true)
-
-    println(x)
+    var value1 : Int? = null
+    println(value1 ?: 11); // <- 11
+    var value2 : Int? = 50
+    println(value2 ?: 11); // <- 50
 }
 
 fun talk() = print("Hello !")
