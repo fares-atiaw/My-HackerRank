@@ -50,6 +50,8 @@ fun main() {
     println(value1 ?: 11); // <- 11
     var value2 : Int? = 50
     println(value2 ?: 11); // <- 50
+
+    Parent.hiDady.g
 }
 
 fun talk() = print("Hello !")
@@ -96,5 +98,12 @@ fun halfTriangleOfNumbers(rows : Int = 5, inverted : Boolean = false)
             }
             println()
         }
+    }
+}
+
+
+class Parent(){
+    object hiDady {
+       val g = "Hay"
     }
 }
