@@ -39,16 +39,6 @@ fun lonelyInteger(a: Array<Int>): Int {
     }
 
     return 0
-    /*Set<Integer> set = new HashSet<Integer>();
-    int l = 0
-    for (Integer i : a){
-        if(set.contains(i)) {
-            set.remove(i)
-        }
-        else {
-            set.add(i)
-        }
-    }*/
 }
 
 fun main(args: Array<String>) {
